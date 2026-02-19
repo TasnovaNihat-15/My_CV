@@ -1,4 +1,4 @@
-
+/*  GLOBAL  */
 * {
     margin: 0;
     padding: 0;
@@ -6,50 +6,58 @@
     font-family: "Segoe UI", Arial, sans-serif;
 }
 
+/*  BACKGROUND */
 body {
-    background: #f4f4f4;
-    padding: 30px;
+    background: #f4f4f4;  
+    padding: 30px;        
 }
 
+/*  MAIN CV  */
 .cv {
-    max-width: 900px;
-    margin: auto;
-    background: white;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 900px;      
+    margin: auto;          
+    background: white;     
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); 
 }
 
+/* HEADER  */
 .header {
-    text-align: center;
+    text-align: center;    
     padding: 30px;
     border-bottom: 2px solid #ddd;
 }
 
+/* Name */
 .header h1 {
     letter-spacing: 3px;
     font-size: 32px;
 }
 
+/* Job title */
 .header .title {
     color: gray;
     margin-top: 8px;
 }
 
+/*MAIN GRID */
 .main {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 2fr; 
 }
 
-
+/*LEFT SIDEBAR*/
 .left {
     background: #f8f8f8;
     padding: 25px;
     border-right: 1px solid #ddd;
 }
 
+/* Each section inside left */
 .left section {
     margin-bottom: 25px;
 }
 
+/* Section headings */
 .left h3 {
     background: #e0e0e0;
     padding: 6px 10px;
@@ -58,24 +66,29 @@ body {
     font-size: 14px;
 }
 
-.left p, .left li {
+/* Paragraph & list text */
+.left p, 
+.left li {
     font-size: 14px;
     margin-bottom: 6px;
 }
 
+/* List indentation */
 .left ul {
     padding-left: 20px;
 }
 
-
+/* RIGHT MAIN CONTENT AREA  */
 .right {
     padding: 25px;
 }
 
+/* Each section spacing */
 .right section {
     margin-bottom: 25px;
 }
 
+/* Section headings */
 .right h3 {
     letter-spacing: 2px;
     border-bottom: 2px solid #ddd;
@@ -83,21 +96,25 @@ body {
     padding-bottom: 5px;
 }
 
-.right p, .right li {
+/* Paragraph & list text */
+.right p, 
+.right li {
     font-size: 15px;
     line-height: 1.6;
 }
 
+/* List indentation */
 .right ul {
     padding-left: 20px;
 }
 
-
+/* LINKS STYLE*/
 a {
     color: #444;
     text-decoration: none;
 }
 
+/* Hover effect */
 a:hover {
     text-decoration: underline;
 }
